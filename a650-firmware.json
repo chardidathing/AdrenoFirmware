@@ -1,0 +1,13 @@
+{
+  "family": "a650",
+  "source": "the stock Xperia 1 II (pdx203) vendor image, the a650_* files of /vendor/firmware; names as the pinned a6xx_catalog.c 0x06050002 entry lists them",
+  "gmu": {"file": "a650_gmu.bin", "bytes": 41548, "sha256": "df79fa8482fcc7587bb239b9c9e2b24bce4729893b990fe3f82b30da8175b01c", "symbol": "native_adreno_firmware_image"},
+  "sqe": {"file": "a650_sqe.fw", "bytes": 31632, "sha256": "b4c27420fd6a5c6b511b254cc0fad8cdd40eea38ceb3418f895a1084f4460487", "symbol": "native_adreno_sqe_firmware_image"},
+  "zap": {
+    "symbol": "native_adreno_zap_image",
+    "metadata": {"file": "a650_zap.mdt", "bytes": 7116, "sha256": "769ec483809e9faa18b31343b66dbc0ee1cd4368899414ac28aec653f3444eaf"},
+    "segments": [
+      {"file": "a650_zap.b02", "bytes": 1676, "sha256": "a415e5452fa8f597670a6e51010e97bfabca7d20fbce8044caed64d9d5873113"}
+    ]
+  }
+}
